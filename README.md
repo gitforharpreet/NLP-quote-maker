@@ -6,6 +6,10 @@ To run the app
 - clone this repository `git clone git@github.com:grumpyp/NLP-quote-maker.git`
 - setup virtual environment __if required__ `python3 -m venv venv`
 - Install requirements.txt `pip install -r requirements.txt`
+- Next get corpora of libraries
+- `python -m nltk.downloader vader_lexicon`
+- `python -m spacy download en_core_web_sm`
+- `python -m spacy download en`
 - set environment variables "mongouser" and "mongopassword"
 - do `flask run`
 
